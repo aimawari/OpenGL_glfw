@@ -1,0 +1,48 @@
+# Build directories
+/build/
+/bin/
+/CMakeFiles/
+/CMakeCache.txt
+/Debian/
+/Makefile
+/*.cmake
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.pdb
+*.lib
+*.exe
+
+# IDE files
+.idea/
+.vscode/
+.cache/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# External libraries (if not using submodules for these)
+external/
+!external/glad/**
+
+# Debug/Release folders for various platforms
+*/Debug/
+*/Release/
+
+# CMake-specific files
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+
+# Generated files
+*.out
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
